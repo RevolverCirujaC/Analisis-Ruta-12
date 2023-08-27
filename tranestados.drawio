@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2023-08-27T16:42:03.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0m1pDg7_Awrps52cWWIF" version="21.5.2" type="device">
+  <diagram name="Página-1" id="ddm3OCbYZNYBD3e1C8C_">
+    <mxGraphModel dx="2074" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MuW73i9ce7-EAqg0fNtr-1" target="MuW73i9ce7-EAqg0fNtr-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-1" value="Se recibe un pedido" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="170" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MuW73i9ce7-EAqg0fNtr-2" target="MuW73i9ce7-EAqg0fNtr-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-2" value="Se busca dentro de la BD" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MuW73i9ce7-EAqg0fNtr-3" target="MuW73i9ce7-EAqg0fNtr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-3" value="Se modifican los detalles del prod en la BD" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="454" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MuW73i9ce7-EAqg0fNtr-4" target="MuW73i9ce7-EAqg0fNtr-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-4" value="Se guardan los datos del comprador, la fecha y del producto" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="600" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MuW73i9ce7-EAqg0fNtr-5" target="MuW73i9ce7-EAqg0fNtr-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-5" value="Se envia el pedido" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="520" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MuW73i9ce7-EAqg0fNtr-6" target="MuW73i9ce7-EAqg0fNtr-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-6" value="Se lleva registro del pedido" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="380" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MuW73i9ce7-EAqg0fNtr-7" target="MuW73i9ce7-EAqg0fNtr-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MuW73i9ce7-EAqg0fNtr-7" value="El pedido llega al comprador" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
